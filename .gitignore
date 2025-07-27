@@ -1,0 +1,13 @@
+# Nu urca fișierele de mai jos pe GitHub
+
+# parole, tokens
+secrets.env
+
+# rapoarte generate
+scan_log.csv
+
+# cache Python
+__pycache__/
+
+# loguri sau fișiere temporare
+*.log
