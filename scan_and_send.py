@@ -1,8 +1,15 @@
-import csv, datetime, os, smtplib, requests
+# === Standar Library ===
+import os
+import csv 
+import smtplib
+import datetime
+
+# === Third-party library ===
+import requests
+from ping3 import ping 
 from email.message import EmailMessage
-from ping3 import ping
-import paramiko  # pentru SSH
 from dotenv import load_dotenv
+import paramiko
 
 load_dotenv("secrets.env")
 
